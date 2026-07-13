@@ -1,6 +1,19 @@
 # 🤖 WhatsApp AI Assistant Automation
+<p align="left">
 
-> **Built With:** GREEN-API for WhatsApp • Google Gemini AI • Make.com • Data Store • No-Code Automation
+<img src="https://img.shields.io/badge/MAKE.COM-6C63FF?style=for-the-badge&logo=make&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/GREEN--API-00A651?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/GOOGLE-GEMINI_AI-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/MAKE-DATA_STORE-2196F3?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/NO--CODE-AUTOMATION-7B68EE?style=for-the-badge"/>
+
+</p>
 
 An AI-powered WhatsApp Assistant built entirely with **Make.com** that automatically receives incoming WhatsApp messages, stores user conversation data, generates intelligent responses using **Google Gemini AI**, and replies instantly through WhatsApp. The entire workflow operates in real time without writing custom backend code.
 
