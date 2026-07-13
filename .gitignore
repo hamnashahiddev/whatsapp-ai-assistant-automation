@@ -1,0 +1,76 @@
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# ==========================
+# API Keys & Secrets
+# ==========================
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.secret
+
+# ==========================
+# Make.com Exports
+# ==========================
+*.json
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==========================
+# Operating System Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Visual Studio Code
+# ==========================
+.vscode/
+.history/
+
+# ==========================
+# IntelliJ / JetBrains
+# ==========================
+.idea/
+
+# ==========================
+# Node.js
+# ==========================
+node_modules/
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+*.bak
+
+# ==========================
+# Personal Credentials
+# ==========================
+credentials.json
+config.local.json
