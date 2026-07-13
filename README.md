@@ -94,31 +94,6 @@ The user receives the reply within seconds.
 
 ---
 
-# 🏗️ Architecture
-
-```text
-User
-   │
-   ▼
-GREEN-API
-   │
-   ▼
-Data Store (Get Record)
-   │
-   ▼
-Data Store (Add / Update)
-   │
-   ▼
-Google Gemini AI
-   │
-   ▼
-GREEN-API
-   │
-   ▼
-WhatsApp User
-```
-
----
 
 # 🖇️ Workflow Diagram
 
@@ -179,29 +154,24 @@ Shows another conversation handled automatically.
 
 ---
 
-# 🔄 Workflow
+## 🔄 Workflow
 
-```text
-User sends WhatsApp message
-            │
-            ▼
-Receive incoming message
-            │
-            ▼
-Search existing user
-            │
-            ▼
-Update conversation record
-            │
-            ▼
-Generate AI response
-            │
-            ▼
-Send WhatsApp reply
-            │
-            ▼
-Conversation completed
+```mermaid
+flowchart TD
+
+A([User]) --> B[📱 GREEN-API<br/>Receive Message]
+
+B --> C[(🗄️ Data Store<br/>Search User)]
+
+C --> D[(💾 Data Store<br/>Update Record)]
+
+D --> E{{✨ Google Gemini AI<br/>Generate Response}}
+
+E --> F[📲 GREEN-API<br/>Send Message]
+
+F --> G([User Receives Reply])
 ```
+
 
 ---
 
